@@ -41,6 +41,7 @@ function Banner() {
                 src="/images/new.gif"
                 className="img-fluid w-100 rounded"
                 alt=""
+                style={{width: "67px !important"}}
               />
                 </div>
               </div>

@@ -1,8 +1,42 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from 'react';
 
 function Hero() {
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  useEffect(() => {
+    // Set the initial window width
+    setWindowWidth(window.innerWidth);
+
+    // Update the window width on resize
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  // Determine the image source based on window width
+  const getImageSrc = () => {
+    if (windowWidth <= 768) {
+      return '/images/mob.webp'; // Path to mobile image
+    }
+    return '/images/sample-1.jpg'; // Path to desktop image
+  };
+
+
+
+
+
+
   return (
     <div >
       {/* slider section */}
@@ -10,8 +44,8 @@ function Hero() {
         <div className="slider_bg_box  ">
           <Image
             width={1903}
-            height={930}
-            src="/images/sample-1.jpg"
+            height={930} 
+            src={getImageSrc()}
             alt=""
 
           />
