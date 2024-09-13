@@ -11,7 +11,7 @@ function Footer() {
         </div>
 
         <p className="tw-mx-auto tw-mt-6 tw-max-w-md tw-text-center tw-leading-relaxed tw-text-gray-500">
-        614015, Perm, st. Monastyrskaya, 57
+        Istiklal Street Beirut Alashrafieh
         </p>
 
         <ul className="tw-mt-12 tw-flex tw-flex-wrap tw-justify-center tw-gap-6 tw-md:gap-8 tw-lg:gap-12">

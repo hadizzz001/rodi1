@@ -14,7 +14,7 @@ function ContactInfo() {
             <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-8">
               <div className="tw-rounded-lg tw-overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4663.821369622676!2d56.21882408602423!3d58.003748804975784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb8d001ce5c9b%3A0x8faa2d11b104db12!2z0YPQuy4g0KHRg9GA0LDRgtC40YHRjNC60LAg0JHQsNGA0YHQutCwLCA1Nywg0JrQuNGX0LI!5e0!3m2!1sen!2sru!4v1619524992238!5m2!1sen!2sru"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.788885070772!2d35.5184479!3d33.8886506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f172ea36a5fb9%3A0xd0f843027da2969c!2sIstiklal%20Street%2C%20Beirut!5e0!3m2!1sen!2slb!4v1694607410847!5m2!1sen!2slb"
                   width="100%"
                   height={480}
                   style={{ border: 0 }}
@@ -29,7 +29,7 @@ function ContactInfo() {
                     Our address
                     </h3>
                     <p className="tw-mt-1 tw-text-gray-600">
-                      614015, Perm, st. Monastyrskaya, 57
+                    Istiklal Street Beirut Alashrafieh
                     </p>
                   </div>
                   <div className="tw-border-t tw-border-gray-200 tw-px-6 tw-py-4">
